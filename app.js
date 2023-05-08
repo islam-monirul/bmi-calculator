@@ -9,5 +9,5 @@ document.getElementById("calculateBtn").addEventListener("click", (e) => {
 
   // Displaying to Frontend
   const resultElement = document.getElementById("bmiResult");
-  resultElement.innerText = `Your BMI is: ${bmi.toFixed(5)}`;
+  resultElement.innerText = `Your BMI is = ${bmi.toFixed(5)}`;
 });

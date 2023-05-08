@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  margin-top: 50px;
+}
+
+#bmi-form {
+  width: 30%;
+
+  margin: 0 auto;
+  border: 2px solid #fff;
+
+  background-image: url("./images/formBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 50px 50px;
+}
+
+.labelText {
+  display: block;
+  text-align: center;
+
+  font-weight: 700;
+}
+
+#heightInput,
+#weightInput {
+  width: 70%;
+
+  display: block;
+  margin: 10px auto;
+
+  padding: 5px 20px;
+}
+
+#calculateBtn {
+  width: 70%;
+  padding: 10px;
+
+  display: block;
+  margin: 0 auto;
+
+  margin-top: 20px;
+
+  background-color: #000;
+  color: #fff;
+
+  cursor: pointer;
+  border: 1px solid black;
+  transition: ease all 0.8s;
+}
+
+#calculateBtn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#bmiResult {
+  padding: 20px;
+
+  width: 30%;
+  border: 1px solid #000;
+
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}

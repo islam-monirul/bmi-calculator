@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
     <title>BMI Calculator</title>
   </head>
   <body>
-    <h2>BMI Calculator</h2>
+    <h2 style="text-align: center; margin-bottom: 10px">BMI Calculator</h2>
     <div class="bmi-form-container">
       <form id="bmi-form">
-        <label for="weightInput">Weight (kg)</label><br />
+        <label for="weightInput" class="labelText">Weight (kg)</label>
         <input type="number" name="weightInput" id="weightInput" />
-        <br />
-        <label for="heightInput">Height (m)</label><br />
+
+        <label for="heightInput" class="labelText">Height (m)</label>
         <input type="number" name="heightInput" id="heightInput" />
-        <br /><br />
+
         <button type="submit" id="calculateBtn">Calculate BMI</button>
       </form>
     </div>
